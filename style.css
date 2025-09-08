@@ -1,0 +1,104 @@
+/* Applies styles to the entire webpage body */
+body {
+  font-family: "Open Sans"; /* Sets the font family */
+  background-color: #fff;   /* Sets the background to white */
+  color: #333;              /* Sets the text color to a dark grey */
+}
+
+/* Topbar styles */
+.topbar {
+  background: #5888b9;   /* Blue background */
+  color: #fff;           /* White text color */
+  padding: 0.1em;        /* Very small space around content */
+  width: 100%;           /* Full width of the viewport */
+}
+
+/* Styles for the SCE logo image */
+.logo {
+  height: 15vh;          /* Height set to 15% of viewport height */
+  margin-top: -3em;      /* Moves logo upward (negative margin) */
+}
+
+/* Styles for the unordered list inside topbar */
+.nav-links {
+  list-style: none;      /* Removes bullet points */
+  display: flex;         /* Displays list items side by side */
+  justify-content: center; /* Centers the list horizontally */
+  gap: 2em;              /* Creates space between list items */
+}
+
+/* Styles for the anchor (<a>) links inside list items */
+.nav-links li a {
+  color: white;          /* White text */
+  text-decoration: none; /* Removes underline */
+  font-size: 14px;       /* Small font size */
+}
+
+/* Styles the second navigation bar */
+.main-nav {
+  display: flex; 
+  justify-content: space-around; /* Evenly distributes space */
+  background-color: #fff;        /* White background */
+  padding: 1em 4em 1em 2em;      /* Top 1em, Right 4em, Bottom 1em, Left 2em */
+}
+
+/* Each individual navigation section */
+.nav-section {
+  text-align: center;   /* Centers text horizontally */
+  padding: 1em;         /* Adds space inside the section */
+}
+
+/* Styles the clickable link text in nav sections */
+.nav-section a {
+  display: block;       /* Makes link take full width */
+  color: #000;          /* Black text */
+  text-decoration: none;/* No underline */
+  font-weight: bold;    /* Bold text */
+}
+
+/* Styles the small descriptive text under each nav link */
+.nav-section p {
+  font-size: 0.75em;    /* Smaller font size */
+  color: #555;          /* Grey color */
+}
+
+/* Styles the red "STRATEGIC PLAN" button */
+.btn-red {
+  background-color: #e74c3c; /* Red background */
+  color: #fff;               /* White text */
+  padding: 1em 2em;          /* Top/Bottom = 1em, Left/Right = 2em */
+  border-radius: 4px;        /* Rounded corners */
+  text-decoration: none;     /* No underline */
+  font-weight: bold;         /* Bold text */
+}
+
+/* Styles the horizontal banner for announcements */
+.banner {
+  background-color: #1565c0; /* Dark blue background */
+  color: white;              /* White text */
+  text-align: center;        /* Centers text horizontally */
+  padding: 0.5em;            /* Padding inside banner */
+  font-weight: bold;         /* Makes text bold */
+}
+
+/* Wrapper for main section (video + greetings text) */
+.main-content {
+  display: flex;        /* Flexbox for side-by-side layout */
+  padding: 1em 10%;     /* 1em top/bottom, 10% left/right */
+  gap: 5em;             /* Space between child elements */
+}
+
+/* Section holding the embedded video */
+.video-container {
+  flex: 1 1 45%;        /* Flexible width: grows/shrinks, base 45% */
+}
+
+/* Section holding greetings text */
+.greetings {
+  flex: 1 1 45%;        /* Flexible width: grows/shrinks, base 45% */
+}
+
+/* Styles for the paragraph inside greetings */
+.greetings p {
+  text-align: justify;  /* Justifies text (aligns left and right) */
+}
